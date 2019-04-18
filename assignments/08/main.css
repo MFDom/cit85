@@ -1,0 +1,21 @@
+body {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 36px;
+}
+
+div p {
+    color: turquoise;
+}
+
+div > p {
+    color: orangered;
+}
+
+div ~ p {
+    font-weight: bold;
+}
+
+div + p {
+    font-size: 2rem;
+}

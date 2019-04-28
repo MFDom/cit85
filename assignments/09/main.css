@@ -1,0 +1,50 @@
+html {
+    background-color: purple;
+    font-family:sans-serif;
+
+}
+
+body {
+    width: 80%;
+    margin: 20px auto;
+    background-color: yellow;
+    border: groove 20px;
+    height:auto;
+}
+
+div,p,h1 {
+    color: blue;
+    width: auto;
+    border: 10px groove silver;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    color: purple;
+    font-weight: bold;
+    font-size: 5rem;
+    border: 5px solid black;
+    line-height: 200px;
+}
+/*elementclass is 10 specificity
+
+ */
+.elementclass {
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*elementid is 100 specifity*/
+
+#elementid {
+    color: grey;
+
+}

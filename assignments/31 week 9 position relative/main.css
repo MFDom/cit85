@@ -1,0 +1,18 @@
+* {
+    border: 3px solid red
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color:darkgrey;
+    color: mediumblue;
+
+}
+
+#green  {
+    position: relative;
+    top: 50px;
+    left: 70px;
+    background-color: turquoise;
+}
